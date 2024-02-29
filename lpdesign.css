@@ -105,8 +105,8 @@ html{
     padding: 0px 5%;
   }
   .about-img img{
-    width: 40vw;
-    height: 70vh;
+    width: 50vw;
+    height: 25rem;
     box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
   }
   .about-text{
@@ -143,8 +143,8 @@ html{
     font-size: 35px;
   }
   #portfolio-img img{
-    height: 400px;
-    width: 600px;
+    height:61.443932411674346vh;
+    width:44.11764705882353vw;
     box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
   }
  .portfolio p{
@@ -275,7 +275,7 @@ justify-content: space-between;
 }
 #portfolio-img img{
   width: 100vw;
-  height: 100vh;
+  height: 200px;
 }
 }
 
@@ -292,7 +292,7 @@ input {
   flex: 1; /* Allows the input to grow and shrink based on available space */
 }
 .hrinfo{
-  width: 80vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,7 +304,6 @@ input {
 @media screen and (max-width: 70em){
   #portfolio-img img{
     width: 50vw;
-    height: 50vh;
   }
  
   nav ul{
@@ -314,4 +313,27 @@ input {
     margin-left: 0px;
     padding-left: 20px;
   }
- }
+  .about{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .about-img{
+    width: 50vw;
+    height: 23rem;
+  }
+  .about-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-text h2{
+    padding-top:20px;
+  }
+  .about-text h3{
+    margin-top: 0px;
+  }
+}
