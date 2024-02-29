@@ -48,7 +48,7 @@ html{
     border-bottom: 2px solid #d03173;
   }
   .hero{
-        width: 100%;
+      width: 100%;
       height: 650px;
       background: url('https://ouch-cdn2.icons8.com/hxxz5Qr551KY1597yq-mz9zWRTkAT-cob5eZ8UreBBo/rs:fit:368:338/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzcy/L2UxYjU4YWUwLTc3/YjQtNGQ1OC05NjJl/LWUzODQ1Y2IyYzBi/Ny5wbmc.png') no-repeat center right;
   
@@ -123,13 +123,14 @@ html{
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 100px;
     background-color: rgba(0,0,0,0.3);
+    margin-bottom: 0px;
   }
   #portfolio-heading{
     color: white;
@@ -293,6 +294,7 @@ input {
 @media screen and (max-width: 70em){
   #portfolio-img img{
     width: 80vw;
+    height: 40vh;
   }
  
   nav ul{
