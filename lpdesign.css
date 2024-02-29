@@ -1,0 +1,305 @@
+html{
+    scroll-behavior: smooth;
+  }
+  .logo img{
+    width: 100px;
+  }
+  body{
+    background-color: #04274d;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #04274d;
+  }
+  nav a svg{
+    margin-left: -150px;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: -200px;
+  }
+  nav ul li a{
+    font-family: 'Rubik Regular', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 15px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+  }
+  nav ul li a:hover{
+    border-bottom: 2px solid #d03173;
+  }
+  .hero{
+        width: 100%;
+      height: 650px;
+      background: url('https://ouch-cdn2.icons8.com/hxxz5Qr551KY1597yq-mz9zWRTkAT-cob5eZ8UreBBo/rs:fit:368:338/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNzcy/L2UxYjU4YWUwLTc3/YjQtNGQ1OC05NjJl/LWUzODQ1Y2IyYzBi/Ny5wbmc.png') no-repeat center right;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      grid-gap: 48px;
+      display: inline-flex;
+  position: relative;
+  }
+  .hrinfo{
+    width: 600px;
+    color: white;
+    left:20px;
+    padding-left: 50px;
+  }
+  
+  .hrinfo h2{
+    font-size: 70px;
+    letter-spacing: 3px;
+    margin: 0px;
+  }
+  .hrinfo h2 span{
+    color: #d03173;
+     font-size: 80px;
+  }
+  .hrbtn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    background-color: #d03173;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+  .hrinfo p{
+    letter-spacing: 2px;
+  }
+  .about{
+    width: 100%;
+    height: 700px;
+    background-color: #04274d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 5%;
+  }
+  .about-img img{
+    width: 50vw;
+    height: 70vh;
+    box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
+  }
+  .about-text{
+    color: white;
+    padding-left: 5%;
+  }
+  .about-text h2{
+    font-size: 40px;
+  }
+  .about-text h2 span{
+    color: #d03173;
+  }
+  .about-text h3{
+     color: #d03173;
+  }
+  #portfolio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 40px 0px 0px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    background-color: rgba(0,0,0,0.3);
+  }
+  #portfolio-heading{
+    color: white;
+    text-align: center;
+  }
+  #portfolio-heading h1{
+    font-size: 35px;
+  }
+  #portfolio-img img{
+    height: 400px;
+    width: 600px;
+    box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
+  }
+  .cycle-slideshow{
+    z-index: 1;
+  }
+  .portfolio-details{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10px;
+    
+  }
+  .portfolio-details h4{
+    font-size:  40px;
+    color: #ff79aa;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  #portfolio-heading h1{
+    font-size:  40px;
+    color: #ff79aa;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+  .portfolio-details p{
+    text-align: center;
+    color: white;
+    
+  }
+  .pfbtn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    background-color: #d03173;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  #contact-section{
+    width: 100%;
+    display: flex;
+    padding: 40px 0px 40px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     color: white;
+     background-color: #d03173;
+  }
+  #contact-section form{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contact-heading h1{
+    text-align: center;
+    font-size: 35px;
+  }
+  #contact-section p{
+    text-align: center;
+   
+  }
+  input, textarea{
+    border: none;
+    outline: none;
+  }
+  #contact-section form input, #contact-section form textarea{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius:10px;
+  }
+  #contact-section form textarea{
+    height: 160px;
+  }
+  #contact-section form input[type="submit"]{
+    height: 45px;
+    background-color: #04274d;
+    color: white;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  #contact-section form input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+  }
+  .toggle-btn {display: none;}
+
+.menu-btn{
+    color: white;
+    font-size: 40px;
+}
+@media screen and (max-width:600px) {
+    .toggle-btn-visible {display: block;}
+.toggle-target-hidden {display: none;}
+.toggle-target-expanded {
+    display: block;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+    padding-left: 20px;
+}
+.toggle-btn{
+    margin-right: 20px;
+}
+.about-img{
+    display: none;
+}
+
+}
+
+@media screen and ((max-width: 58em) or (max-width:600px)){
+.hero{
+    background: #04274d;
+}
+#contact-section form {
+  display: flex;
+  flex-direction: column; /* or row depending on your layout */
+  width: 80vw;
+}
+input {
+  flex: 1; /* Allows the input to grow and shrink based on available space */
+}
+.hrinfo{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+}
+@media screen and (max-width: 70em){
+  #portfolio-img img{
+    width: 80vw;
+  }
+ 
+  nav ul{
+  margin-right: 0px;
+  }
+  nav a svg{
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+ }
