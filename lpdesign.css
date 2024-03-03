@@ -143,8 +143,8 @@ html{
     font-size: 35px;
   }
   #portfolio-img img{
-    height:61.443932411674346vh;
-    width:44.11764705882353vw;
+    height:400px;
+    width:700px;
     box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
   }
  .portfolio p{
@@ -277,13 +277,27 @@ nav{
 .about-img{
   display: none;
 }
-#portfolio-img img{
-  width: 100vw;
-  height: 200px;
+.hero{
+  background: #04274d;
 }
+.hrinfo{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+}
+#contact-section form {
+  display: flex;
+  flex-direction: column; /* or row depending on your layout */
+  width: 80vw;
 }
 
-@media screen and ((max-width: 58em) or (max-width:600px)){
+}
+
+@media screen and ((max-width: 58em) and (min-width:601px)){
 .hero{
     background: #04274d;
 }
@@ -296,19 +310,19 @@ input {
   flex: 1; /* Allows the input to grow and shrink based on available space */
 }
 .hrinfo{
-  width: 90vw;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding: 0px;
 }
-
 }
 @media screen and (max-width: 70em){
   #portfolio-img img{
-  height: 200px;
-    width: 50vw;
+  height: 70vh;
+    width: 90vw;
   }
  
   nav ul{
@@ -341,4 +355,5 @@ input {
   .about-text h3{
     margin-top: 0px;
   }
+  
 }
