@@ -300,7 +300,7 @@ nav{
   }
 }
 
-@media screen and ((max-width: 58em) and (min-width:601px)){
+@media screen and (max-width: 58em) and (min-width:601px){
 .hero{
     background: #04274d;
 }
