@@ -143,8 +143,8 @@ html{
     font-size: 35px;
   }
   #portfolio-img img{
-    height:400px;
-    width:700px;
+    height: 60vh;
+    width: 50vw;
     box-shadow: 5px 5px 10px rgba(208,49,11,0.5),-5px -5px 10px rgba(208,49,11,0.5);
   }
  .portfolio p{
@@ -327,7 +327,7 @@ height: 500px;
 }
 @media screen and (max-width: 70em){
   #portfolio-img img{
-  height: 70vh;
+  height: 23rem;
     width: 80vw;
   }
  
