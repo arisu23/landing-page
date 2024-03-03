@@ -294,7 +294,10 @@ nav{
   flex-direction: column; /* or row depending on your layout */
   width: 80vw;
 }
-
+#portfolio-img img{
+  height: 25rem;
+    width: 80vw;
+  }
 }
 
 @media screen and ((max-width: 58em) and (min-width:601px)){
@@ -325,7 +328,7 @@ input {
 height: 500px;
 }
 }
-@media screen and (max-width: 70em){
+@media screen and (max-width: 70em) and (min-width:601px){
   #portfolio-img img{
   height: 25rem;
     width: 60vw;
