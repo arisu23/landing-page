@@ -328,7 +328,7 @@ height: 500px;
 @media screen and (max-width: 70em){
   #portfolio-img img{
   height: 23rem;
-    width: 60vw;
+  width: 50vw;
   }
  
   nav ul{
