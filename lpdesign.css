@@ -328,7 +328,7 @@ input {
 height: 500px;
 }
 }
-@media screen and (max-width: 70em) and (min-width:601px){
+@media screen and (max-width: 70em){
   #portfolio-img img{
   height: 25rem;
     width: 60vw;
